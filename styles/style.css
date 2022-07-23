@@ -17,7 +17,7 @@ html {
 
 body{
     background-color: #FDFDED;
-    height: 90vh;
+    height: 100vh;
     min-height: fill-available;
     min-height: -webkit-fill-available;
 }
