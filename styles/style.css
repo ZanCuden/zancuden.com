@@ -208,7 +208,7 @@ nav{
 
     /* Animacije */
     .prva-stran svg {
-        width: 250px;
+        width: 230px;
     }
 
     .prva-stran .racunalnik {
@@ -262,7 +262,7 @@ nav{
     .prva-stran {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 230px auto auto 200px;
+        grid-template-rows: 250px auto auto 200px;
         align-items: flex-end;
     }
 
@@ -277,7 +277,7 @@ nav{
 
     /* Animacije */
     .prva-stran svg {
-        width: 200px;
+        width: 170px;
     }
 
     .prva-stran .racunalnik {
