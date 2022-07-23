@@ -12,6 +12,8 @@
 
 body{
     background-color: #FDFDED;
+    height: 100vh;
+    min-height: -webkit-fill-available;
 }
 
 
@@ -64,7 +66,6 @@ nav{
     text-decoration: none;
     text-align: center;
     height: 90vh;
-    min-height: -webkit-fill-available;
 }
 
 .prva-stran h1 {
