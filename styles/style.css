@@ -10,9 +10,15 @@
     box-sizing: border-box;
 }
 
+html {
+    height: fill-available;
+    height: -webkit-fill-available;
+}
+
 body{
     background-color: #FDFDED;
-    height: 100vh;
+    height: 90vh;
+    min-height: fill-available;
     min-height: -webkit-fill-available;
 }
 
