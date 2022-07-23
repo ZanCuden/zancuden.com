@@ -17,7 +17,7 @@ body{
 
 /* Header */
 .header{
-    height: 100px;
+    height: 10vh;
     width: 100%;
     padding: 0 100px;
     background: #F9F9C8;
@@ -31,7 +31,7 @@ nav{
 }
 
 .logo{
-    font-size: 50px;
+    font-size: 5vh;
     color: var(--zelena);
     font-family: 'Courgette', cursive;
     text-decoration: none;
@@ -39,7 +39,7 @@ nav{
 }
 
 .nav-svg-links{
-    padding: 20px 0;
+    padding: 2vh 0;
 }
 
 .nav-svg-links li{
@@ -48,7 +48,7 @@ nav{
 }
 
 .nav-svg-links img{
-    height: 60px;
+    height: 6vh;
 }
 /* Konec headerja */
 
@@ -63,6 +63,7 @@ nav{
     color: var(--zelena);
     text-decoration: none;
     text-align: center;
+    height: 90vh;
 }
 
 .prva-stran h1 {
@@ -166,7 +167,7 @@ nav{
 /* Konec prve strani */
 
 
-@media (max-width:1380px){
+@media (max-width:1400px){
 
     /* Header */
     .header {
@@ -177,24 +178,17 @@ nav{
         margin: 0 40px;
     }
 
-    .nav-svg-links{
-        padding: 20px 0;
-    }
-
     .nav-svg-links li{
         margin: 0 30px;
     }
 
-    .nav-svg-links img{
-        height: 60px;
-    }
     /* Konec headerja */
 
     /* Prva stran */
     .prva-stran {
         display: grid;
         grid-template-columns: 1fr auto 1fr;
-        grid-template-rows: 300px auto auto 300px;
+        grid-template-rows: auto 10vh 2vh auto;
         align-items: flex-end;
     }
 
@@ -208,7 +202,7 @@ nav{
 
     /* Animacije */
     .prva-stran svg {
-        width: 230px;
+        width: 20vh;
     }
 
     .prva-stran .racunalnik {
@@ -240,17 +234,11 @@ nav{
         justify-content: center;
     }
 
-    .nav-svg-links{
-        padding: 20px 0;
-    }
 
     .nav-svg-links li{
         margin: 0;
     }
 
-    .nav-svg-links img{
-        height: 60px;
-    }
 
     #vmesni-padding {
         margin: 0 40px;
@@ -262,7 +250,7 @@ nav{
     .prva-stran {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 250px auto auto 200px;
+        grid-template-rows: auto 10vh 2vh auto;
         align-items: flex-end;
     }
 
@@ -277,7 +265,7 @@ nav{
 
     /* Animacije */
     .prva-stran svg {
-        width: 170px;
+        width: 17vh;
     }
 
     .prva-stran .racunalnik {
