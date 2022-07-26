@@ -11,14 +11,12 @@
 }
 
 html {
-    height: fill-available;
     height: -webkit-fill-available;
 }
 
 body{
     background-color: #FDFDED;
     height: 100vh;
-    min-height: fill-available;
     min-height: -webkit-fill-available;
 }
 
